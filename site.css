@@ -1,0 +1,479 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css");
+@media screen and (max-width:1440px)  
+{
+.nav1{
+    background-color: yellow;
+    color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+    /* background-image: url("c:\Users\ACER\Downloads\Capture.JPG");
+    background-size: cover; */
+}
+.nav1 h1{
+    padding-left: 20px;
+}
+.nav2{
+    background-color: black;
+    color: white;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav2 a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: yellow;
+}
+.nav{
+    /* position: absolute;
+    position: fixed; */
+    display: flex;
+    align-content: center;
+    width: 100%;
+}
+.main1{
+    position: relative;
+    background-image: url(video.gif) ;
+    background-size: cover;
+    height: 700px;
+}
+.main2{
+    position: absolute;
+    bottom: 250px;
+    padding-left: 450px;
+    /* display: flex;
+    align-items: center; */
+    /* text-align: center; */
+/* 
+    border: 1px solid red; */
+}
+.head{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+.plan{
+    border: 1px solid red;
+}
+.model{
+    border: 1px solid red;
+}
+.management{
+    border: 1px solid red;
+}
+.works>div{
+    display: inline-block;
+    /* display: flex ;
+    justify-content: space-between; */
+}
+.plan,.model,.management{
+    /* display: flex;
+    justify-content: center; */
+    margin: 30px;
+
+}
+.div1,.div2,.div3{
+    padding: 20px;
+}
+.about{
+    color: black;
+    display:flex; 
+  justify-content: space-evenly;
+  font-size: xx-large;
+}
+.details{
+    background-color: yellow;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: larger;
+
+    
+}
+.year,.project,.contract{
+    /* border: 1px solid red; */
+    border-right: 1px solid white;
+    padding-right: 50px;
+    margin: 40px;
+}
+.awards{
+    padding-right: 50px;
+    margin: 40px;
+
+}
+.head1{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+.img1{
+    grid-area: one;
+    position: relative;
+    width: 50%;
+}
+/* .op1{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+} */
+.middle1{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left:65%;
+    background-color: white;
+    color:black;
+    padding: 10px;
+
+
+}
+
+.img1:hover{
+    /* background-color: rgba(65, 63, 63, 0); */
+    opacity: .6 ;
+    position: relative;
+}
+.img1:hover .middle1{
+    opacity: 1;
+}
+.img2{
+    grid-area: two;
+    position: relative;
+    width: 50%;
+}
+.middle2{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left:65%;
+    background-color: white;
+    color:black;
+    padding: 10px;
+}
+.img2:hover{
+    opacity: .6;
+    position: relative;
+}
+.img2:hover .middle2{
+opacity: 1;
+}
+.img3{
+    grid-area: three;
+    position: relative;
+    width: 50%;
+}
+.middle3{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left:65%;
+    background-color: white;
+    color:black;
+    padding: 10px;
+}
+.img3:hover{
+    /* background-color: rgba(65, 63, 63, 0); */
+    opacity: .6;
+    position: relative;
+}
+.img3:hover .middle3{
+    opacity: 1;
+}
+.img4{
+    grid-area: four;
+    position: relative;
+    width: 50%;
+}
+.middle4{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left:65%;
+    background-color: white;
+    color:black;
+    padding: 10px;
+}
+.img4:hover{
+    /* background-color: rgba(65, 63, 63, 0); */
+    opacity: .6;
+    position: relative;
+}
+.img4:hover .middle4{
+    opacity:1;
+}
+
+.imgs{
+    display: grid;
+    grid-template-areas: "one two"
+    "three four";
+    margin: 40px;
+}
+.head2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.span1:hover{
+    color:yellow ;
+}
+.span2:hover{
+    color: aquamarine;
+}
+.span3:hover{
+    color:blueviolet;
+}
+.span4:hover{
+    color: violet;
+}
+.span5:hover{
+    color: yellow;
+}
+.client1,.client2,.client3,.client4,.client5{
+    display: inline-block;
+    /* display: flex;
+    align-content: center; */
+    /* width: 90%; */
+    padding: 60px;
+}
+.cntct{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+.map{
+    display: flex;
+    justify-content: center;
+}
+input[type="Text"]{
+    padding-right:20px ;
+    font-size: larger;
+}
+input[type="email"]{
+    padding-right:20px ;
+    font-size: larger;
+}
+input[type="textarea"]{
+    padding-right:20px ;
+    font-size: larger;
+}
+.submit{
+    /* background-color: yellow;
+    padding: 10px; */
+    /* width: ; */
+    display: flex;
+    justify-content: end;
+    width: 20%;
+}
+.inquires{
+    /* margin: 40px; */
+    font-size: larger;
+    /* line-height: 20px; */
+}
+.submit button{
+    background-color:black;
+    color: yellow;
+    padding: 10px;
+}
+.inquires,.office{
+    display: inline-block;
+    width: 600px;
+    height: 700px;
+    margin: 30px;
+}
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .nav{
+        width: 50%;
+        
+    }
+    
+.nav1{
+    background-color: yellow;
+    color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+    width: 200%;
+}
+.nav1 h1{
+    padding-left: 20px;
+    font-size: smaller;
+}
+
+.nav2>a{
+    padding: 10px;
+    font-size: x-small;
+}
+a:hover{
+    color: yellow;
+}
+.nav2{ 
+    position: absolute; 
+     display: none;
+}
+.icon1{
+    position: relative;
+    color: black;
+}
+.icon1:hover{
+    color:yellow;
+}
+.icon:hover .nav2{
+    position: absolute;
+    display:block;
+    background-color: black;
+    color: white;
+    height: 20px;
+}
+.main1{
+    /* position: relative; */
+    /* width: 100%;
+    height: 300px;
+}
+.main2{ */
+    /* position: absolute; */
+    /* bottom: -10px;
+    padding-left: 200px;
+    
+}
+.main1 img{
+    width: 100%;
+
+}
+.service{
+    height: 60px; */
+    /* width: 100%; */
+/* }
+.head{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+ 
+   
+}
+.plan{
+    border: 1px solid red;
+    width: 60px;
+    height: 70px;
+    font-size: xx-small;
+} */
+/* .plan img{
+    width: 60px;
+    height: 70px;
+} */
+/* .model{
+    border: 1px solid red;
+} */
+/* .model img{
+
+} */
+/* .management{
+    border: 1px solid red;
+} */
+
+/* }
+@media screen and(min-width:400px){
+    .nav{
+        width: 50%;
+        
+    }
+    
+.nav1{
+    background-color: yellow;
+    color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+    width: 30px;
+}
+.nav1 h1{
+    padding-left: 20px;
+    font-size: xx-small;
+}
+
+.nav2>a{
+    padding: 10px;
+    font-size: x-small;
+}
+a:hover{
+    color: yellow;
+}
+.nav2{ */
+    /* position: absolute; */
+    /* display: none;
+}
+.icon1{
+    position: relative;
+    color: black;
+}
+.icon1:hover{
+    color:yellow;
+}
+.icon:hover .nav2{
+    position: absolute;
+    display:block;
+    background-color: black;
+    color: white;
+    height: 20px;
+}
+.main1{ */
+    /* position: relative; */
+    /* width: 100%;
+    height: 300px;
+}
+.main2{ */
+    /* position: absolute; */
+    /* bottom: -10px;
+    padding-left: 200px;
+    
+}
+.main1 img{
+    width: 100%;
+
+}
+.service{
+    height: 60px;
+    
+}
+.head{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+     width: 150px;
+   
+}
+.plan{
+    border: 1px solid red;
+    width: 60px;
+    height: 70px;
+    font-size: xx-small;
+} */
+/* .plan img{
+    width: 60px;
+    height: 70px;
+} */
+/* .model{
+    border: 1px solid red;
+} */
+/* .model img{
+
+} */
+/* .management{
+    border: 1px solid red;
+} */
+
+
+    
